@@ -10,6 +10,9 @@ public class ParaditAttelu : MonoBehaviour {
 	public GameObject bikses;
 	public Sprite[] atteluMasivs; 
 	public GameObject attelaTuretajs;
+	public GameObject attelaTuretajs2;
+	public GameObject slaideris;
+	public GameObject slaideris2;
 	public void cepureAttelosana(bool vertiba){
 		cepure.SetActive(vertiba);
 	}
@@ -30,4 +33,12 @@ public class ParaditAttelu : MonoBehaviour {
 			attelaTuretajs.GetComponent<Image>().sprite = atteluMasivs [1];
 		}
 }
+	public void mainitIzmeru(){
+		float izmers = slaideris.GetComponent<Slider> ().value;
+		attelaTuretajs.transform.localScale = new Vector2 (1f*izmers,0);
+	}
+	public void mainitIzmeru2(){
+		float izmers2 = slaideris2.GetComponent<Slider> ().value;
+		attelaTuretajs2.transform.localScale = new Vector2 (0, 1f*izmers2);
+	}
 }

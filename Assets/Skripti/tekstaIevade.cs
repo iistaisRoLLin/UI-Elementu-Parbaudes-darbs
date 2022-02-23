@@ -16,8 +16,8 @@ public class tekstaIevade: MonoBehaviour {
 
 	public void darbibasArTekstu(){
 		teksts = ievadesLauks.GetComponent<Text> ().text;
+	vecums= ievadesLauks2.GetComponent<Text> ().text;
 		TekstaAttelosanasLauks.GetComponent<Text> ().text = "Supervaronis " + teksts+" ir "+vecums+" gadus vecs!";
-	}
-		
+}
 }
 
