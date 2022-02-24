@@ -7,4 +7,4 @@ UI-Elementu pārbaudes darbs
  - [x] Pievienot drag and drop funckiju
  - [x] Pievienot scroll view par projektu
  - [ ] Izveidot divas slider funkcijas, viena maina garumu un otra platumu
- - [ ] Pievienots audio
+ - [x] Pievienots audio
